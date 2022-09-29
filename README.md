@@ -76,7 +76,7 @@ Download the zip file and extract it and add it to them your website folder in t
 
 *Here is a screenshot of what the admin page looks like:*
 
-![Image](/assets/Linking_Styles.png)
+![Image](/assets/the_admin_screenshot.png)
 
 File in the values above. This will in turn be stored in the JSON File I created. Moreover, you can edit the JSON file manually. But for accuracy use this dashboard.
 
