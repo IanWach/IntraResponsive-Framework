@@ -65,7 +65,7 @@ I know this is what needs to be done but to do it faster I created a framework t
 
 4.	Now go to the GitHub repository using the link below:
 
-[ This is the Link](./IntraResponsive-Framework)
+**[ This is the Link](./IntraResponsive-Framework)**
 
 Download the zip file and extract it and add it to them your website folder in the same directory as the index.html file. The need to have the same folder directory.
 
