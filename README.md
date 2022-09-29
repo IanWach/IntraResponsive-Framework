@@ -15,7 +15,7 @@ The Framework makes use of **JavaScript, PHP, CSS, and HTML.** These are used to
 ## Need for the Framework
 
 
-Let me do a quick reminder of what web responsiveness a friendly you visit a website or any other web application through a computer there is the interface you see for wide screens. When you shift that to the Mobile and tablet view the screen changes.
+Let me do a quick reminder of what web responsiveness is. For a friendly website you visit or any other web application through a computer there is the interface you see for wide screens. When you shift that to the Mobile and tablet view the screen changes.
 
 Now if you will be able to interact with the site easily, view all the components, and have a greater user experience. The concept we can term the website to be web responsive.  Failure to which the website is unresponsive. 
 
@@ -38,7 +38,7 @@ For example, let’s take the example of a Navbar with a class navbar or an ID. 
 }
 ```
 
-What the framework when the screen size changes to a range between 487px and 767px the framework will add a class name _**tbresp-navbar**_. This class name is linked to the CSS file given for the Tablet CSS. 
+What the framework does when the screen size changes to a range between 487px and 767px the framework will add a class name _**tbresp-navbar**_. This class name is linked to the CSS file given for the Tablet CSS. 
 
 ```
 .tbresp-navbar{
