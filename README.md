@@ -31,7 +31,7 @@ But if the window ranges lower than that of a desktop device the ranges computer
 
 For example, let’s take the example of a Navbar with a class navbar or an ID. What do we know about the navbar? It needs to be responsive by ensuring some CSS properties like flex are well taken care of when the screen change. Let’s say the property on a computer is 
 
-```
+```css
 . navbar{
   	display: flex;
 	justify-content: space-evenly;
@@ -40,7 +40,7 @@ For example, let’s take the example of a Navbar with a class navbar or an ID. 
 
 What the framework does when the screen size changes to a range between 487px and 767px the framework will add a class name _**tbresp-navbar**_. This class name is linked to the CSS file given for the Tablet CSS. 
 
-```
+```css
 .tbresp-navbar{
   	display: block;
 	justify-content: space-between;
@@ -49,8 +49,8 @@ What the framework does when the screen size changes to a range between 487px an
 
 Then when it ranges below 487px. The framework takes the .**mbresp-navbar** class attribute and adds it to the Navbar Class. Then the class fetches the respective code from the Mobile CSS File. The style file to be included will be.
 
-```
-mbresp-navbar{
+```css
+.mbresp-navbar{
   	display: block;
 	justify-content: flex-end;
 }
@@ -65,7 +65,7 @@ I know this is what needs to be done but to do it faster I created a framework t
 
 4.	Now go to the GitHub repository using the link below:
 
-"[ This is the Link]""(./IntraResponsive Framework/)
+"[ This is the Link]""(./IntraResponsive Framework/)"
 Download the zip file and extract it and add it to them your website folder in the same directory as the index.html file. The need to have the same folder directory.
 
 5. After that add this additional CSS to the pages that are being used for the website. This is mostly the main page. Then add the links to the CSS which should lead to the Framework directory styles. Here are the links:
