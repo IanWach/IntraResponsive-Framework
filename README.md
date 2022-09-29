@@ -65,7 +65,8 @@ I know this is what needs to be done but to do it faster I created a framework t
 
 4.	Now go to the GitHub repository using the link below:
 
-"[ This is the Link]""(./IntraResponsive Framework/)"
+[ This is the Link](./IntraResponsive-Framework)
+
 Download the zip file and extract it and add it to them your website folder in the same directory as the index.html file. The need to have the same folder directory.
 
 5. After that add this additional CSS to the pages that are being used for the website. This is mostly the main page. Then add the links to the CSS which should lead to the Framework directory styles. Here are the links:
