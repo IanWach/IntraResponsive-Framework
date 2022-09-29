@@ -1,4 +1,4 @@
-# Responsive-Framework - IntraResponsive Framework
+# Responsive-Framework - ###IntraResponsive Framework
 
 ## Introduction of the Framework
 
@@ -68,11 +68,11 @@ I know this is what needs to be done but to do it faster I created a framework t
 ./IntraResponsive Framework/
 Download the zip file and extract it and add it to them your website folder in the same directory as the index.html file. The need to have the same folder directory.
 
-5.	After that add this additional CSS to the pages that are being used for the website. This is mostly the main page. Then add the links to the CSS which should lead to the Framework directory styles. Here are the links:
+5.      After that add this additional CSS to the pages that are being used for the website. This is mostly the main page. Then add the links to the CSS which should lead to the Framework directory styles. Here are the links:
 
 ![Image](/assets/Linking_Styles.png)
 
-6.       Now at this point, the website is fully configured to take in the respective classes depending on the screen size. But there is something more you need to do. Open the admin.html file in the admin directory under the Main Framework Directory.
+6.      Now at this point, the website is fully configured to take in the respective classes depending on the screen size. But there is something more you need to do. Open the admin.html file in the admin directory under the Main Framework Directory.
 
 *Here is a screenshot of what the admin page looks like:*
 
@@ -103,7 +103,7 @@ _The Framework Aims at:_
 3. CSS
 5. PHP
 
-### Library Used
+### Tools Used
 1. JSON
 
 ## Software Development Model Used
