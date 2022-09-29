@@ -72,7 +72,7 @@ Download the zip file and extract it and add it to them your website folder in t
 **or use**
 
 ```git
-gh repo clone IanWach/IntraResponsive-Framework
+https://www.github.com/IanWach/IntraResponsive-Framework/
 ```
 
 5. After that add this additional CSS to the pages that are being used for the website. This is mostly the main page. Then add the links to the CSS which should lead to the Framework directory styles. Here are the links:
