@@ -73,6 +73,7 @@ Download the zip file and extract it and add it to them your website folder in t
 ![Image](/assets/Linking_Styles.png)
 
 ```html
+        <!-- CSS For the Responsive Design -->
         <link rel="stylesheet" href="../tablet-resp.css" type="text/css">
         <link rel="stylesheet" href="../mobile-resp.css" type="text/css">
 ```
@@ -83,9 +84,9 @@ Download the zip file and extract it and add it to them your website folder in t
 
 ![Image](/assets/the_admin_screenshot.png)
 
-File in the values above. This will in turn be stored in the JSON File I created. Moreover, you can edit the JSON file manually. But for accuracy use this dashboard.
+File in the values above. This will in turn be stored in the **JSON** File I created. Moreover, you can edit the **JSON** file manually. But for accuracy use this dashboard.
 
-7.	In the Admin dashboard, I the point to link your class names with respective mobile and tablet class and id names. The syntax to change the classes is already done by the Framework. The class names will be stored in the JSON file. Then now open the CSS files for the mobile and tablet for the responsive part.
+7.	In the **Admin dashboard**, I the point to link your class names with *respective mobile and tablet class and id names*. The syntax to change the classes is already done by the Framework. *The class names will be stored in the JSON file. Then now open the CSS files for the mobile and tablet for the responsive part.*
 
 8.	Now with this, you will be fully having a fully responsive website across all devices. 
 
