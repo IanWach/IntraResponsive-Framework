@@ -1,0 +1,142 @@
+.mbresp-header{
+      display: block;  
+}
+.mbresp-logo{
+        text-align: center;
+        margin: auto;
+}
+.mbresp-navbar{
+        display: block;
+}
+.mbresp-navlist{
+        display: block;
+}
+.mbresp-navbaritem2{
+        display: flex;
+
+}
+.mbresp-quickaccess{
+        
+}
+.mbresp-quickbtn{
+
+}
+
+/*Code for Test File*/
+/*This is CSS For The Test File*/
+.mbresp-body{
+        margin-top: 0;
+}
+.mbresp-header-sect{
+        
+        padding: 25px 10px;
+}
+.mbresp-logo-div{
+        display: grid;
+}
+.mbresp-logo-img{
+        width: 50px;
+
+}
+.mbresp-logo-txt{
+        display: none;
+}
+.mbresp-logo-txt{
+        font-family: 'IBM Plex Sans', sans-serif;
+        padding-left: 10px;
+        padding-bottom: 5px;
+
+}
+.mbresp-logo-txt2{
+        display: inline-block;
+        font-family: 'IBM Plex Sans', sans-serif;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        font-size: 14px;
+        word-wrap:unset;
+}
+.mbresp-navbar{
+        display: flex;
+        grid-template-columns: repeat(10, 2fr);
+        gap: 10px 30px;
+        font-size: 20px;
+        align-items: center;
+        justify-items: end;
+}
+
+.mbresp-nav-lists li:not(:first-child) {display: none;}
+.mbresp-naview-icon {
+        float: left;
+        display: block !important;
+}
+.mbresp-nav-lists {
+        position: relative;
+        font-size: 14px;
+}
+.mbresp-naview-icon{
+        right: 0;
+        top: 0;
+}
+.mbresp-nav-lists li{
+        float: none;
+        display: block;
+        text-align: left;
+}
+.mbresp-navbar-btns {
+        display: flex;
+        flex-direction: column;
+}
+.mbresp-navbar-btn{
+        margin-bottom: 5px;
+        font-size: 15px;
+        padding: 5px 10px;
+}
+.mbresp-navbar-btn:nth-child(2){
+        background-color: orangered;
+}
+.mbresp-highlight-div{
+        height: 50px;
+        background-color: orangered;
+}
+
+.mbresp-landing-sect{
+        flex-direction: column;
+}
+.mbresp-landing-imgdiv{
+        width: 350px;
+        padding: 30px;
+}
+.mbresp-landing-img{
+        width: 300px;
+}
+.mbresp-content-sect{
+        padding: 0px;
+
+}
+.mbresp-content{
+        font-size: 40px
+}
+.mbresp-content-mb{
+        display: block;
+        color: rgb(0, 110, 255);
+        font-size: 30px;
+}
+
+
+/* This is the CSS for the Responsive Admin Page on Mobile*/
+
+        .mbresp-edit-field{
+                flex-direction: column;
+}
+        .mbresp-admin-para{
+                font-size: 30px;
+}
+        .mbresp-form-h6{
+                font-size: 15px;
+}
+        .mbresp-admin-info-para{
+                font-size: 13px;
+}
+        .mbresp-content{
+                display: none;
+}

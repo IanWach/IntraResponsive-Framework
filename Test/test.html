@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IntraResponsive- Sample File</title>
+        <link rel="stylesheet" href="test.css" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+        <!-- CSS For the Responsive Design -->
+        <link rel="stylesheet" href="../tablet-resp.css" type="text/css">
+        <link rel="stylesheet" href="../mobile-resp.css" type="text/css">
+
+    </head>
+    <body>
+        <header class="header-sect" id="">
+            <div class="logo-div" id="">
+                <img class="logo-img" id="" src="../assets/Logo.png" />
+                <h2 class="logo-txt" id="">Laptop Design</h2>
+                <h2 class="logo-txt1" id="">Tablet Design</h2>
+                <h2 class="logo-txt2" id="">Mobile Design</h2>
+            </div>
+            <div class="navbar" id="">
+                <ul class="nav-lists" id="navLists">
+                    <li class="nav-items">Link Name</li>
+                    <li class="nav-items">Link Name</li>
+                    <li class="nav-items">Link Name</li>
+                    <li class="naview-icon material-symbols-outlined"><a onclick="showNav()">menu</a></li>
+                </ul>
+                <div class="navbar-btns">
+                    <Button class="navbar-btn" id="">Button</Button>
+                    <Button class="navbar-btn" id="">Button</Button>
+                </div>
+            </div>
+        </header>
+        <div class="highlight-div" id="">
+
+        </div>
+        <section class="landing-sect section-2" id="">
+            <div class="landing-imgdiv" id="">
+                <img class="landing-img" src="../assets/Banner.jpg"/>
+            </div>
+            <div class="content-sect" id="">
+                <h1 class="content">This is the system Design of how the landing page Always looks like on a Laptop</h1>
+                <h1 class="content-tb">This is the system Design of how the landing page Always looks like on a Tablet</h1>
+                <h1 class="content-mb">This is the system Design of how the landing page Always looks like on a Mobile</h1>
+            </div>
+        </section>
+        <script>
+            function showNav(){
+                var navList = document.getElementById("nav-lists");
+                console.log(navList)
+                navList.classList.add = "wbresp-nav-lists";
+            }
+        </script>
+        <script type="module" src="../ClassIdMapping.js"></script>    
+    </body>
+</html>

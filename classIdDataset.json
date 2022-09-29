@@ -1,0 +1,64 @@
+[{
+        "previousClass" : "navbar",
+        "tabletClass" :"tbresp-navbar",
+        "mobileClass" :"mbresp-navbar", 
+        "tabletId" :"webresp-navbarId", 
+        "mobileId": "webresp-navbarId"
+},
+{
+        "previousClass" : "nav-lists",
+        "tabletClass" :"tbresp-nav-lists",
+        "mobileClass" :"mbresp-nav-lists", 
+        "tabletId" :"webresp-nav-listsId", 
+        "mobileId": "webresp-nav-listsId"
+},
+{
+        "previousClass" : "header-sect",
+        "tabletClass" :"tbresp-header-sect",
+        "mobileClass" :"mbresp-header-sect", 
+        "tabletId" :"webresp-header-sect", 
+        "mobileId": "webresp-header-sect"
+},
+ {
+        "previousClass" : "briefintro-section",
+        "tabletClass" :"tbresp-nav-sect2prt",
+        "mobileClass" :"mbresp-nav-sect2prt", 
+        "tabletId" :"webresp-nav-sect2prt", 
+        "mobileId": "webresp-nav-sect2prt"
+},
+{
+        "previousClass" : "section3",
+        "tabletClass" :"tbresp-section3",
+        "mobileClass" :"mbresp-section3", 
+        "mobileId": "webresp-section3",
+        "tabletId" :"webresp-section3" 
+},
+ {
+        "previousClass" : "section4",
+        "tabletClass" :"tbresp-section4",
+        "mobileClass" :"mbresp-section4", 
+        "tabletId" :"webresp-section4", 
+        "mobileId": "webresp-section4"
+},
+{
+        "previousClass" : "section5",
+        "tabletClass" :"tbresp-section5",
+        "mobileClass" :"mbresp-section5", 
+        "tabletId" :"webresp-section5", 
+        "mobileId": "webresp-section5"
+},
+ {
+        "previousClass" : "section6",
+        "tabletClass" :"tbresp-section6",
+        "mobileClass" :"mbresp-section6", 
+        "tabletId" :"webresp-section6", 
+        "mobileId": "webresp-section6"
+},
+{
+        "previousClass" : "intrResp",
+        "tabletClass" :"tbresp-intrResp",
+        "mobileClass" :"mbresp-intrResp", 
+        "tabletId" :"webresp-intrRespId", 
+        "mobileId": "webresp-intrRespId"
+}
+]

@@ -1,0 +1,125 @@
+        .tbresp-header{
+        display: block;  
+  }
+        .tbresp-logo{
+          text-align: center;
+          margin: auto;
+  }
+        .tbresp-navbar{
+
+  }
+        .tbresp-navlist{
+          
+  }
+        .tbresp-navbaritem2{
+          display: flex;
+  
+  }
+
+  /*This is CSS For The Test File*/
+        .tbresp-body{
+
+        }
+        .tbresp-header-sect{
+        
+                padding: 10px 15px;
+}
+        .tbresp-logo-div{
+                display: flex;
+                align-items: flex-end;
+}
+        .tbresp-logo-img{
+                width: 70px;
+        
+}
+        .tbresp-logo-txt{
+                font-family: 'IBM Plex Sans', sans-serif;
+                padding-left: 10px;
+                padding-bottom: 5px;
+                display: none;
+}
+        .tbresp-logo-txt1{
+                display: block;
+                font-family: 'IBM Plex Sans', sans-serif;
+                padding-left: 10px;
+                padding-bottom: 5px;
+}
+        .tbresp-navbar{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px 100px;
+                font-size: 20px;
+                align-items: center;
+                justify-items: end;
+}
+        
+        .tbresp-nav-lists li:not(:first-child) {display: none;}
+        .tbresp-naview-icon {
+                float: left;
+                display: block !important;
+        }
+        .tbresp-nav-lists {
+                position: relative;
+}
+        .tbresp-naview-icon{
+                right: 0;
+                top: 0;
+}
+        .tbresp-nav-lists li{
+                float: none;
+                display: block;
+                text-align: left;
+}
+        .tbresp-navbar-btns {
+       
+}
+        .tbresp-navbar-btn{
+                margin-bottom: 3px;
+}
+        .tbresp-navbar-btn:nth-child(2){
+                background-color: orangered;
+}
+        .tbresp-highlight-div{
+                height: 50px;
+                background-color: orangered;
+}
+
+        .tbresp-landing-sect{
+                flex-direction: column;
+}
+        .tbresp-landing-imgdiv{
+                 width: 500px;
+                padding: 50px;
+}
+        .tbresp-landing-img{
+                width: 400px;
+}
+        .tbresp-content-sect{
+                padding: 20px 10px 10px 40px;
+}
+        .tbresp-content{
+                font-size: 40px
+}
+
+/* This is the CSS for the Responsive Admin Page */
+
+        .tbresp-edit-field{
+                flex-direction: column;
+}
+        .tbresp-admin-para{
+                font-size: 35px;
+}
+        .tbresp-form-h6{
+                font-size: 15px;
+}
+        .tbresp-admin-info-para{
+                font-size: 13px;
+}
+        .tbresp-content-tb{
+                display: block;
+                font-size: 40px;
+                color: #002bff;
+}
+        .tbresp-content{
+                display: none;
+        }

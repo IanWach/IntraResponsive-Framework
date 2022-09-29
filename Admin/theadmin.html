@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>IntraResponsive- Admin</title>
+		<link rel="stylesheet" href="admin.css" type="text/css">
+		<script src="https://web-chat.nativechat.com/3.1.1/sdk/nativechat.js"></script>
+		<link href="https://web-chat.nativechat.com/3.1.1/sdk/nativechat.css" rel="stylesheet" type="text/css">
+
+		<!--The Responsive Web Links for the CSS -->
+		<link rel="stylesheet" href="../mobile-resp.css" type="text/css">
+		<link rel="stylesheet" href="../tablet-resp.css" type="text/css">
+
+	</head>
+	<body>
+		<section class="admin-sect">
+			<div class="admin-div">
+				<h2 class="admin-para"><i><img class="admin-logo" src="../assets/Logo.png"/></i>INTRA-RESPONSIVE&trade; ATTRIBUTES SETTINGS</h2>
+				<h3 class="admin-para-h3">Admin Panel</h3>
+				<div class="setting-div">
+					<form id="form-settings" method="post" action="admin.php" onsubmit="addAttributes()">
+						<h6 class="form-h6">***Insert The Mobile Class, Tablet Class and Add ID Name after the given Prefix</h6>
+						<div class="edit-field">
+							<div>
+								<label for="prev-class" class="setting-tag">Previous Class</label>
+								<input class="setting-input" id="prev-cls" type="text" name="prev-class" placeholder="Previous Class Name" required>
+								<label for="addId" class="setting-tag">Add an ID Name </label>
+								<input class="setting-input" id="current-id" type="text" pattern="webresp-.+" value="webresp-" name="addId" placeholder="Enter an ID Name" required>
+							</div>
+							<div>
+								<label for="mobile-c" class="setting-tag">Mobile Class</label>
+								<input class="setting-input" id="mobile-cls" type="text" pattern="mbresp-.+" value="mbresp-" name="mobile-c" placeholder="Class Name for Mobile" required>
+								<label for="tablet-c" class="setting-tag">Tablet Screen Class</label>
+								<input class="setting-input" id="tablt-cls" type="text" pattern="tbresp-.+" value="tbresp-" name="tablet-c" placeholder="Class Name for Mobile" required>
+							</div>
+						</div>
+						<input type="submit" class="setting-submit" name="submit">
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="admin-info">
+			<div class="admin-info-div">
+				<p class="admin-info-para">*** This is an Admin Page to add and edit Classes. This includes adding Attributes to be used fro the Web Responsive Purposes.
+				This information is then inserted into a dataSet that will access the data.
+				</p>
+			</div>
+		</section>
+		
+		<script>
+		var chatSettings = {
+			bot: {
+			id: "d3fc8b1ae2ed42d486b7517b"
+			},
+			channel: {
+			id: "0598cffe-8ea4-455f-bdb1-321e3f59656c",
+			token: "903af0ba-0fad-4019-9d15-2363f347fad4"
+			},
+			googleApiKey: "your-google-maps-API-key",
+			session: {
+			clear: true
+			}
+			};
+
+			window.NativeChat.load({
+			id: "kcChatWindow",
+			origin: "",
+			display: {
+					mode: "modal"
+			},
+			chat: chatSettings
+			});
+		</script>
+		<script type="module" src="../ClassIdMapping.js"></script>
+	</body>
+</html>
