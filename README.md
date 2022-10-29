@@ -4,7 +4,7 @@
 
 IntraResponsive is a framework designed to help developers create a responsive website faster. This is to help developers focus on what matters. Moreover, it is to help developers create websites faster with no worries. 
 
-The Framework makes use of **JavaScript, PHP, CSS, and HTML.** These are used to create a friendly environment for websites across different screen sizes.
+The Framework makes use of **JavaScript, PHP, CSS, and HTML.** These are used to create a friendly environment for websites across different screen sizes. Moreover, It uses JSON File.
 
 ![Image](/assets/Logo.png)
 
